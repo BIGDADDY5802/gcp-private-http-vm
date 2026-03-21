@@ -40,10 +40,10 @@ variable "subnet_cidr" {
 
 variable "bucket_name" {
   description = "Name of the storage bucket (must be globally unique)"
-  default     = "class-7-5-tf-state-bucket-1"
+  default     = "name-of-your-bucket-12345"
 }
 
 variable "ssh_user" {
   description = "SSH username (your Google account username)"
-  default     = "jeromegcloud7"
+  default     = "acct-username"
 }
