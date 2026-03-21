@@ -1,0 +1,88 @@
+# ======================
+# Terraform
+# ======================
+
+# Local .terraform directory (downloaded providers/modules)
+.terraform/
+
+# Terraform lock file (optional — some teams commit this)
+# .terraform.lock.hcl
+
+# State files — NEVER commit these, they contain sensitive data
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Override files (local developer overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan output files
+*.tfplan
+*.plan
+
+# ======================
+# GCP Credentials
+# ======================
+
+# Service account key files — NEVER commit these
+*.json
+!package.json
+!package-lock.json
+
+# GCP credential files
+application_default_credentials.json
+*-credentials.json
+*-key.json
+service-account*.json
+gcloud-credentials.json
+
+# ======================
+# Environment Variables
+# ======================
+.env
+.env.*
+*.env
+
+# ======================
+# OS Files
+# ======================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ======================
+# Editor / IDE
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
