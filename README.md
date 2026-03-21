@@ -78,8 +78,8 @@ Terraform will print your outputs:
 ```
 Outputs:
 
-bucket_name    = "class-7-5-dawg-tf-bucket"
-bucket_url     = "gs://class-7-5-dawg-tf-bucket"
+bucket_name    = "name-of-your-bucket-12345"
+bucket_url     = "gs://name-of-your-bucket-12345"
 ssh_command    = "ssh -i ~/.ssh/google_compute_engine <acct-username>@xx.xx.xx.xx"
 subnet_cidr    = "10.10.0.0/24"
 vm_external_ip = "xx.xx.xx.xx"
